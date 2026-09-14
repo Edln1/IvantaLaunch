@@ -1,0 +1,7 @@
+/* Source artwork remains a separate, unmodified image. All lengths follow the
+   reference canvas width so the transition cannot drift at another viewport. */
+.ensemble-ending .ending-art{mask-image:linear-gradient(transparent 0 48vw,#000 48vw);z-index:0}
+.ensemble-ending .ending-clouds{position:absolute;inset:0;z-index:0;pointer-events:none;background:url(assets/ending-fused.png) 30% -40vw/150% auto no-repeat;mask-image:linear-gradient(transparent 35vw,#000 39vw,#000 50vw,transparent 54vw)}
+.ensemble-ending .ending-original{display:block;position:absolute;top:0;left:-5.7%;width:114%;max-width:none;height:auto;z-index:1;filter:none;opacity:1;pointer-events:none;mask-image:linear-gradient(#000 0%,#000 76%,rgba(0,0,0,.9) 83%,rgba(0,0,0,.35) 94%,transparent 100%)}
+.ensemble-ending .ending-frame{position:absolute;inset:0;z-index:2;background:url(assets/ending-fused.png) center top/100% auto no-repeat;pointer-events:none;mask-image:linear-gradient(transparent 37vw,#000 41vw,#000 56vw,transparent 57vw),linear-gradient(to right,#000 0%,#000 5%,transparent 14%,transparent 86%,#000 95%,#000 100%);mask-composite:intersect}
+.ensemble-ending .ending-copy{z-index:3}
